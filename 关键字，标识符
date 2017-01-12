@@ -1,0 +1,29 @@
+package testDemo;
+//初识关键字&标识符
+public class Test {
+	public static void	main(String[] args)
+	{
+		System.out.println("What fox say?"); 
+		System.out.println("————");
+		int h = 1;
+		System.out.println(h);
+		double t1 =12.1;
+		int t2 = 20;
+		float t3= (int) (t1+t2);
+		System.out.println("result1：" +t1);
+		System.out.println("result2：" +t3);
+
+		//算数运算符计算
+		int a,b,c,d,e,f;
+		a = 11+8;
+		System.out.println("a的计算结果是："+a);
+		b = a%5;
+		System.out.println("b的计算结果是："+b);	
+		c = 20;
+		d = 5;
+		e = ++c;
+		f = d++;
+		System.out.println("++c的计算结果是："+e);	
+		System.out.println("d++的计算结果是："+f);							
+	}	
+}
